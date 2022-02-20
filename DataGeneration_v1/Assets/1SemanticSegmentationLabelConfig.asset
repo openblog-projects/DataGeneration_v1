@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d0176327854820ab53adc46cbec7c1, type: 3}
   m_Name: 1SemanticSegmentationLabelConfig
   m_EditorClassIdentifier: 
-  m_LabelEntries: []
+  m_LabelEntries:
+  - label: carTest
+    color: {r: 1, g: 0, b: 0.07366419, a: 1}
   skyColor: {r: 0, g: 0, b: 0, a: 1}
