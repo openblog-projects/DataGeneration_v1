@@ -13,11 +13,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-45269
+40267
 Successfully changed project path to: /home/b1/synthData/DataGeneration_v1/DataGeneration_v1
 /home/b1/synthData/DataGeneration_v1/DataGeneration_v1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 116,34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117,32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -33,89 +33,89 @@ objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_sh
 od GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_
 buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robustness GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_te
 xture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.2 graphics device ; Context level  <OpenGL 4.2> ; Context handle 463565824
+OPENGL LOG: Creating OpenGL 4.2 graphics device ; Context level  <OpenGL 4.2> ; Context handle 1717750784
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = '/home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = '/home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56317
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56409
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/b1/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,004915 seconds.
+Registered in 0,004591 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 118,52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 146,57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2,375 seconds
+- Completed reload, in  2,276 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2376ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (2276ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (320ms)
+			SetupTypeCache (303ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (439ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (473ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,006358 seconds.
+Registered in 0,007127 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 157,28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118,62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3,523 seconds
+- Completed reload, in  3,605 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3524ms)
-		BeginReloadAssembly (210ms)
+	ReloadAssembly (3606ms)
+		BeginReloadAssembly (242ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (3227ms)
-			LoadAssemblies (111ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (3260ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (618ms)
+			SetupTypeCache (586ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (133ms)
-			SetupLoadedEditorAssemblies (2152ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (2268ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (157ms)
-				BeforeProcessingInitializeOnLoad (164ms)
-				ProcessInitializeOnLoadAttributes (1692ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (1819ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
@@ -124,14 +124,14 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0,94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1,81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 140,2 MB.
 System memory in use after: 140,2 MB.
 
 Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3699.
-Total: 14,170351 ms (FindLiveObjects: 1,065137 ms CreateObjectMapping: 0,453366 ms MarkObjects: 12,044751 ms  DeleteObjects: 0,603142 ms)
+Total: 11,369335 ms (FindLiveObjects: 0,860567 ms CreateObjectMapping: 0,399955 ms MarkObjects: 9,581974 ms  DeleteObjects: 0,523727 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -144,389 +144,252 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Materials
-  artifactKey: Guid(096dda3fe2be64e558dc33ac063f5bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Materials using Guid(096dda3fe2be64e558dc33ac063f5bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fced30ad32d1568eeaf5cbd9d35ea3e3') in 0,006752 seconds 
-  Import took 0,014961 seconds .
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f43657664d19fbc476a42e0fad91a9') in 0,007066 seconds 
+  Import took 0,016356 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 10,10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69,8 MB.
+System memory in use after: 69,8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3699.
+Total: 12,293246 ms (FindLiveObjects: 0,370257 ms CreateObjectMapping: 0,148886 ms MarkObjects: 11,509026 ms  DeleteObjects: 0,263275 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25,931494 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af45ad17dd692308c8c369bbe2208b9') in 0,356550 seconds 
+  Import took 0,365084 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000437 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs
-  artifactKey: Guid(ef27d39947dec42729ceff018b9b8b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs using Guid(ef27d39947dec42729ceff018b9b8b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cae2de294e2d3526c6bcfd0cadd4979') in 0,000889 seconds 
-  Import took 0,007610 seconds .
+  Time since last request: 84,050624 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5544f17fcfc5b85bafdc41c5b300341b') in 0,020686 seconds 
+  Import took 0,031845 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000325 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1
-  artifactKey: Guid(0eaeca38125114e0db3707f705e03ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1 using Guid(0eaeca38125114e0db3707f705e03ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0e5c69bd3ec179fef2eef499d3a405') in 0,001113 seconds 
-  Import took 0,009434 seconds .
+  Time since last request: 0,000249 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547a64b70bcc66c619281854bedf44d7') in 0,016440 seconds 
+  Import took 0,029335 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 84,837703 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab
-  artifactKey: Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab using Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b093874eba63b21ea49640afebdc591') in 0,374261 seconds 
-  Import took 0,383739 seconds .
+  Time since last request: 0,000239 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa60ebca8f3e8a00cd059ee0b196c0be') in 0,016137 seconds 
+  Import took 0,025165 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000216 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab
-  artifactKey: Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab using Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2720bf4025a3805354e5062434e82063') in 0,015611 seconds 
-  Import took 0,025656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000205 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab
-  artifactKey: Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab using Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b51d615e27a88d250c1be99af4d05b8') in 0,018473 seconds 
-  Import took 0,026467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000200 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab
-  artifactKey: Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab using Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64debbb1a937cb4e2439fa8dfe553426') in 0,016724 seconds 
-  Import took 0,025264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000243 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab
-  artifactKey: Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab using Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1bbc7bd2644b0529796ed04def59da') in 0,015683 seconds 
-  Import took 0,026938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000282 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab
-  artifactKey: Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab using Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12f63b0f22e3d40a739d013a30e7718') in 0,019479 seconds 
-  Import took 0,033011 seconds .
+  Time since last request: 0,000261 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb92d3c46c38f701e4ef56cb999d92aa') in 0,012526 seconds 
+  Import took 0,019974 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0,000233 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab
-  artifactKey: Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab using Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038c9a65c7d60fb4815bf84d768d04cb') in 0,020000 seconds 
-  Import took 0,032145 seconds .
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d7902854c71648ea53260ef86acc16') in 0,012578 seconds 
+  Import took 0,020848 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000214 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab
-  artifactKey: Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab using Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f954fcaf08519559a4d1c0a8d6b06a') in 0,014271 seconds 
-  Import took 0,023108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000191 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab
-  artifactKey: Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab using Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e157416e445c8fbef8c54f44c39104') in 0,017509 seconds 
-  Import took 0,025189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84,717679 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab
-  artifactKey: Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab using Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a86c5bcbd58cb5db5fa1e3ca260e92') in 0,019505 seconds 
-  Import took 0,029651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8,618269 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab
-  artifactKey: Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab using Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad01dbad8e729f3974c93fc4e2e8b00') in 0,018492 seconds 
-  Import took 0,029132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24,403976 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab
-  artifactKey: Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/snack_biscotti_ghiott_01.prefab using Guid(9ef2f11fc3a4d451489a43733d1b68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b4bc1672e5001908ecdf8d38fa17a5') in 0,023115 seconds 
-  Import took 0,036977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60,399215 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab
-  artifactKey: Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/candy_minipralines_lindt.prefab using Guid(f8c81fac8af13448ab26bdb5ce582c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61d661d000f8c1d4ac334569d6baea6') in 0,018218 seconds 
-  Import took 0,028812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000299 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab
-  artifactKey: Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/lotion_essentially_nivea.prefab using Guid(1235a6a7e60bd4fb49f7fe43925b064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8051cc24c6bbcd946f7b051b339030b1') in 0,016080 seconds 
-  Import took 0,025246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000208 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab
-  artifactKey: Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/pasta_lasagne_barilla.prefab using Guid(5a29edd6a97d9479da063ac4c4eb8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50fb8c20b904fbfa404481371809fa3') in 0,017008 seconds 
-  Import took 0,026478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000217 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab
-  artifactKey: Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cleaning_snuggle_henkel.prefab using Guid(df26f25c7e2e84c0b977b2b3c2efefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba5b244776fa2572736a5452c1470c3') in 0,015094 seconds 
-  Import took 0,023940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000227 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab
-  artifactKey: Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/cereal_cheerios_honeynut.prefab using Guid(04ab9ebb2655c44ae9e9edebd2c9d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3796ddc32ed729ab4360a99fb6da4571') in 0,019551 seconds 
-  Import took 0,029684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000250 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab
-  artifactKey: Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_greentea_itoen.prefab using Guid(6d2179d3da6ff400c84fe0464ebff935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cedee8a2d7c2d15cf2f8d09da4c62f') in 0,018665 seconds 
-  Import took 0,029588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000226 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab
-  artifactKey: Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/craft_yarn_caron_01.prefab using Guid(12285089570ca4f6c8bc7b2358caf57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9012f71fc0964e12c906749a90c48cbd') in 0,018062 seconds 
-  Import took 0,026805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000227 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab
-  artifactKey: Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Foreground Objects/Phase 1/Prefabs/drink_whippingcream_lucerne.prefab using Guid(514fd8bc80a18436f8b85ea96011911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a20a76dce1d836a5248d99dbfe9860') in 0,014909 seconds 
-  Import took 0,023875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83,291724 seconds.
+  Time since last request: 40,359628 seconds.
   path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
   artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85eb6c5ad7d362f4dc5e83acb73e8b3') in 0,043721 seconds 
-  Import took 0,053818 seconds .
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff26d21ee248e5251fa1ed85e852234') in 0,023086 seconds 
+  Import took 0,032839 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27,600802 seconds.
+  Time since last request: 0,019997 seconds.
   path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
   artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b284ac867214043e619fc786deb3e6') in 0,013381 seconds 
-  Import took 0,022487 seconds .
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff26d21ee248e5251fa1ed85e852234') in 0,020553 seconds 
+  Import took 0,032590 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,033405 seconds.
+  Time since last request: 2,784620 seconds.
   path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
   artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b284ac867214043e619fc786deb3e6') in 0,018550 seconds 
-  Import took 0,031413 seconds .
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b277da3cb3ee8b932960dce601e37f8d') in 0,015598 seconds 
+  Import took 0,029228 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13,296649 seconds.
-  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
-  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7797d54a33bfd0babb1aa84db75aaa69') in 0,014293 seconds 
-  Import took 0,023132 seconds .
+  Time since last request: 72,019007 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87aa3134a2e84cc6639d2477c745403') in 0,014126 seconds 
+  Import took 0,023372 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13,106576 seconds.
-  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
-  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f139423ba2c2d7f0ace357be59536416') in 0,021809 seconds 
-  Import took 0,034448 seconds .
+  Time since last request: 0,000229 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed5b0045b918da1286ba6111214e9c6') in 0,016671 seconds 
+  Import took 0,028101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 57,050702 seconds.
-  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
-  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c90d2e81275af644dee04cbda81855') in 0,015751 seconds 
-  Import took 0,024619 seconds .
+  Time since last request: 0,000275 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba9c357830fbf13b9dff7816063b447') in 0,017109 seconds 
+  Import took 0,028248 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11,680105 seconds.
-  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
-  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfadab05cdfaeab08b0f9c175b4ee38') in 0,016245 seconds 
-  Import took 0,028172 seconds .
+  Time since last request: 0,000272 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87aa3134a2e84cc6639d2477c745403') in 0,017171 seconds 
+  Import took 0,028349 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5,699025 seconds.
-  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
-  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3e3fba1622dcca901bb88486f72a20') in 0,020869 seconds 
-  Import took 0,034986 seconds .
+  Time since last request: 0,000245 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154b87753d645ec7abeeade09a4271b5') in 0,017687 seconds 
+  Import took 0,028757 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,007974 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2,726 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2727ms)
-		BeginReloadAssembly (541ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (98ms)
-		EndReloadAssembly (2096ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (614ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (83ms)
-			SetupLoadedEditorAssemblies (946ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (695ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1,08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135,5 MB.
-System memory in use after: 135,5 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3748.
-Total: 11,634890 ms (FindLiveObjects: 0,803558 ms CreateObjectMapping: 0,179644 ms MarkObjects: 10,429247 ms  DeleteObjects: 0,219565 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 214,265102 seconds.
-  path: Packages/com.unity.perception/Tests/Runtime/Randomization/ScenarioTests/Resources/sampleAnimationPoseConfig.asset
-  artifactKey: Guid(92646dbc24d95413084b0787214fdcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.perception/Tests/Runtime/Randomization/ScenarioTests/Resources/sampleAnimationPoseConfig.asset using Guid(92646dbc24d95413084b0787214fdcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c3b21fab9115a5cf557d30ec18d28d') in 0,021216 seconds 
-  Import took 0,030842 seconds .
+  Time since last request: 0,000305 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a83b5fbddd513c434560d98dcc5cec8') in 0,017994 seconds 
+  Import took 0,028617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,673573 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb65b5e517983f2e26d20a0adb2c4ec1') in 0,013640 seconds 
+  Import took 0,024572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000270 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ee654c658c3f18a1d181ddaa43a03e') in 0,013461 seconds 
+  Import took 0,024414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000236 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e07349b67629c0c4e9ba3306619138c') in 0,017045 seconds 
+  Import took 0,026456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000229 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fca874990a02501650ce494eb4714a') in 0,018430 seconds 
+  Import took 0,030894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000596 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e046873f99f3f9dc54d4af1095053769') in 0,017326 seconds 
+  Import took 0,029654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,155991 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d51fceed2f30995d68598f897f987d') in 0,019288 seconds 
+  Import took 0,032844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000247 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee0713824dc64544f75041b85647156') in 0,017013 seconds 
+  Import took 0,029086 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0,000292 seconds.
-  path: Packages/com.unity.perception/Tests/Runtime/Randomization/ScenarioTests/Resources/sampleIdLabelConfig.asset
-  artifactKey: Guid(c3dce9f8036624486bdc1e97f0934aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.perception/Tests/Runtime/Randomization/ScenarioTests/Resources/sampleIdLabelConfig.asset using Guid(c3dce9f8036624486bdc1e97f0934aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97e971f14fc1bf886b60ab3e0ec1554') in 0,006118 seconds 
-  Import took 0,017648 seconds .
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc88ebb3a3356b419e2d27d72e1ce90e') in 0,017038 seconds 
+  Import took 0,028725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000246 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990236da1f3d582ab7f123902b2d505b') in 0,018744 seconds 
+  Import took 0,030158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000346 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a83eb8cfb53bbc70752eba636ffc20') in 0,017307 seconds 
+  Import took 0,028552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82,617912 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat
+  artifactKey: Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas.mat using Guid(07f44fe3e9c462146a7769b976c50ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2dcbc5b546bb5060f640e895c4cdd0') in 0,031698 seconds 
+  Import took 0,041882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000383 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat
+  artifactKey: Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Free_Car_Texture_Atlas_Lights.mat using Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32952c94bf53ef54628565e1ca349be3') in 0,011619 seconds 
+  Import took 0,021783 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,005963 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3,594 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3594ms)
-		BeginReloadAssembly (1597ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (1889ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (534ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (880ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (623ms)
-				ProcessInitializeOnLoadMethodAttributes (101ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1,60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135,6 MB.
-System memory in use after: 135,6 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3752.
-Total: 12,932771 ms (FindLiveObjects: 0,593149 ms CreateObjectMapping: 0,272278 ms MarkObjects: 11,798955 ms  DeleteObjects: 0,265871 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,007253 seconds.
+Registered in 0,009911 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -535,43 +398,43 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1,05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6,276 seconds
+- Completed reload, in  3,244 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6276ms)
-		BeginReloadAssembly (4374ms)
+	ReloadAssembly (3244ms)
+		BeginReloadAssembly (1198ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (1797ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (1951ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (520ms)
+			SetupTypeCache (526ms)
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (858ms)
+			SetupLoadedEditorAssemblies (972ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (613ms)
-				ProcessInitializeOnLoadMethodAttributes (95ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (707ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1,01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1,09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 135,6 MB.
 System memory in use after: 135,6 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3756.
-Total: 10,828980 ms (FindLiveObjects: 0,726716 ms CreateObjectMapping: 0,392589 ms MarkObjects: 9,412700 ms  DeleteObjects: 0,292287 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3781.
+Total: 13,280189 ms (FindLiveObjects: 0,605648 ms CreateObjectMapping: 0,426698 ms MarkObjects: 11,776228 ms  DeleteObjects: 0,468095 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -584,336 +447,816 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2038,555804 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
-  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e6eb2212cd2a6b8c0cf4534e1debe6') in 0,248044 seconds 
-  Import took 0,257077 seconds .
+  Time since last request: 94,610514 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469055817b61fb2f5b9ed485180d5a55') in 0,395591 seconds 
+  Import took 0,408064 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000531 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
-  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9710ed1d46cab59be8cb2083f6e2a043') in 0,012022 seconds 
-  Import took 0,020078 seconds .
+  Time since last request: 0,000302 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83a5f6be84ece5ce9b9a4ccfa1a24b8') in 0,017300 seconds 
+  Import took 0,028567 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000265 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
-  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817243fedd8ebe76c0e88d9d1f892eed') in 0,011814 seconds 
-  Import took 0,022031 seconds .
+  Time since last request: 0,000259 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674e9923ce4b4e415340f7e569514c13') in 0,016331 seconds 
+  Import took 0,027892 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000237 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
-  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71d58db784c79230bba2305b39c802b') in 0,014744 seconds 
-  Import took 0,023406 seconds .
+  Time since last request: 0,000301 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469055817b61fb2f5b9ed485180d5a55') in 0,015577 seconds 
+  Import took 0,024284 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000223 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
-  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf2d98c11941d3e8056cd707d3c678d') in 0,011756 seconds 
-  Import took 0,020329 seconds .
+  Time since last request: 0,000249 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ed1bb35d285960ef2c127c8015896a') in 0,015769 seconds 
+  Import took 0,027314 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000281 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
-  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81edbc21cc68e698659895308c78636') in 0,011182 seconds 
-  Import took 0,022313 seconds .
+  Time since last request: 0,000222 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea35f3c3eb82335570808de4cba73d0') in 0,015262 seconds 
+  Import took 0,024288 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000380 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
-  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2132b08fd1178f8cfc1f1953ce387d') in 0,018668 seconds 
-  Import took 0,027137 seconds .
+  Time since last request: 11,863028 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a94261cf7f0944650914d0e9aa6de95') in 0,019104 seconds 
+  Import took 0,031683 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000257 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
-  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c30e4e56c264d32d035d8aca710b48') in 0,011388 seconds 
-  Import took 0,022109 seconds .
+  Time since last request: 0,000207 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89972888a1b98092b5e667aec8b1eab3') in 0,016851 seconds 
+  Import took 0,029557 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000491 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
-  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867eaf9e2c3afc33b301e12defe27cda') in 0,013151 seconds 
-  Import took 0,022136 seconds .
+  Time since last request: 0,000209 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a111dc98b2a18e84b0222dfe277e1c5') in 0,015183 seconds 
+  Import took 0,024886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000244 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a94261cf7f0944650914d0e9aa6de95') in 0,015685 seconds 
+  Import took 0,024052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000205 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94efdcf06245714918a6a1e9f2d4de67') in 0,013424 seconds 
+  Import took 0,022510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000254 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4937f4e30f69a29c7b3e0e641fc5a675') in 0,012970 seconds 
+  Import took 0,021221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,539479 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6875705f4a21683c978f9eb2d0540b08') in 0,015690 seconds 
+  Import took 0,025764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,017620 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Blue.prefab using Guid(6dfc700a1205ddf49b448178a2b00e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6875705f4a21683c978f9eb2d0540b08') in 0,019918 seconds 
+  Import took 0,030451 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0,000208 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
-  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f66f256ba85e1bfd0d8a01b83bea556') in 0,014692 seconds 
-  Import took 0,025505 seconds .
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Yellow.prefab using Guid(400ae1c92d3d7164c98601f4394b0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f6dfa1007d59cd3c91163fdb8f9513') in 0,015965 seconds 
+  Import took 0,025655 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,017062 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
-  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f66f256ba85e1bfd0d8a01b83bea556') in 0,011905 seconds 
-  Import took 0,022521 seconds .
+  Time since last request: 0,000231 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Carbon.prefab using Guid(0f7265637d2c58d49a57253b2879a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6091e6740c518d74a2c169488a4584') in 0,078509 seconds 
+  Import took 0,092235 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 130,920929 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
-  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3487bb35fd4820ac212837d6e09c7d') in 0,018139 seconds 
-  Import took 0,030111 seconds .
+  Time since last request: 0,000274 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Gray.prefab using Guid(f8c4c684ae669b44b92b76f083b3d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a952dda35ca22253566d698fe6a62b63') in 0,020778 seconds 
+  Import took 0,034050 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000318 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
-  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ed7045dda0f38bd62d1fde83ac1744') in 0,015454 seconds 
-  Import took 0,027227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000267 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
-  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd947e9276feb04b7421e34fe5d6cbce') in 0,014860 seconds 
-  Import took 0,026411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000339 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
-  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021704f6b2b80d175b238c2b58f4fb76') in 0,013819 seconds 
-  Import took 0,024442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000288 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
-  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475b0aa73aaec76e3060be9b21c5f580') in 0,014169 seconds 
-  Import took 0,025374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000266 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
-  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14be9b40e8c63637c3a92a2015c4f8d1') in 0,013928 seconds 
-  Import took 0,024716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000299 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
-  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15df356995d1a5bc895ae9de02e20ecc') in 0,017564 seconds 
-  Import took 0,027993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000251 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
-  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315595f8132d83a1b4d962b90269fc41') in 0,015433 seconds 
-  Import took 0,027350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000406 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
-  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c52c043d46a54849f55a947eb91bc19') in 0,011631 seconds 
-  Import took 0,020803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000214 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
-  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8dfcdc8927798cb0267cc305fcdfb5') in 0,010232 seconds 
-  Import took 0,018800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34,097179 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
-  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec113ce85b0fe0af37d921f628daf940') in 0,014471 seconds 
-  Import took 0,024317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000210 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
-  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beb23ef5e4d7789e32dba118e37c503') in 0,011656 seconds 
-  Import took 0,022917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000313 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
-  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77829fc481986784d8469898ef8fd1c') in 0,011072 seconds 
-  Import took 0,020436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000215 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
-  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448e1cc570670bc64e7bf90dd0f8d2df') in 0,012130 seconds 
-  Import took 0,020233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000202 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
-  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551cd6b953ae1bd011757c902fe3de59') in 0,013398 seconds 
-  Import took 0,022218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000311 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
-  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c2d5494db9107f454d64bc2931459e') in 0,015581 seconds 
-  Import took 0,025976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000303 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
-  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6818cb9c27b9117756f24aa129a25843') in 0,015331 seconds 
-  Import took 0,025518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000209 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
-  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888de9d36126e803ea51f14a6dc73d5e') in 0,015951 seconds 
-  Import took 0,027070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000284 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
-  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad503c420d009b2fb5acc95f6c874d0') in 0,015016 seconds 
-  Import took 0,025949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000285 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
-  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf0d686a8b4c55a9904e8938c8cec69') in 0,012396 seconds 
-  Import took 0,021447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6,366537 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab
-  artifactKey: Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_01.prefab using Guid(7dd7f1e1f85b04c908d48829d22f4f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bf5bab954dbb466ee6f2fcfe335bd8') in 0,015078 seconds 
-  Import took 0,024844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000200 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab
-  artifactKey: Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_01.prefab using Guid(b65643442652f4e5cac1ba8a138fe11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6d0f865a0032c1887153f322d6d66b') in 0,012821 seconds 
-  Import took 0,021427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000209 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab
-  artifactKey: Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_01.prefab using Guid(1279cedc9a7594696816ed4895a5a0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3a07f115ee76832897f80475eb450e') in 0,011555 seconds 
-  Import took 0,019644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000236 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab
-  artifactKey: Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_hardedge_02.prefab using Guid(95c2ed58ec23643a698c890a152f30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37348ab346b093a9724b9444ba9775e4') in 0,012121 seconds 
-  Import took 0,020396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000218 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab
-  artifactKey: Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_01.prefab using Guid(0f54a45900eb3485eae0701715746760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383bde740227072f145e3168639b2878') in 0,011799 seconds 
-  Import took 0,019333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000309 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab
-  artifactKey: Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_01.prefab using Guid(a75f34e297d0d41939b1f730f6556b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d41d7feb99f371ecebc0c9d76cec1f') in 0,011876 seconds 
-  Import took 0,019695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000282 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab
-  artifactKey: Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_roundedge_02.prefab using Guid(2bda33803207144f1b850250904cd924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8301f4b15baa647f9ef5da05f7cc5e5a') in 0,011855 seconds 
-  Import took 0,021130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000248 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab
-  artifactKey: Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cube_roundedge_02.prefab using Guid(9d09d824be2fe4617b33bb31e9eeca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd095fc88d5ce29dd389b9b33df3d0b3b') in 0,014859 seconds 
-  Import took 0,022961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000291 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab
-  artifactKey: Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Cylinder_hardedge_02.prefab using Guid(a3a4f0ca1fc1e47608346e3ebad64473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c313eea96b10bd24e9b7109e4c7a0db8') in 0,014390 seconds 
-  Import took 0,024811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000250 seconds.
-  path: Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab
-  artifactKey: Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Perception/0.9.0-preview.2/Tutorial Files/Background Objects/Prefabs/Sphere_quad_02.prefab using Guid(02d0dd79e02e54b0497c611f55f79aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7059d6daf9bf41473b60d1689ea62ae1') in 0,012911 seconds 
-  Import took 0,021923 seconds .
+  Time since last request: 0,000460 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs/Free_Racing_Car_Red.prefab using Guid(b471b549ed0cf0b42b15b41a16e07b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f53d9d645d0fd5c4e7437a84d02d173') in 0,015735 seconds 
+  Import took 0,027300 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,006249 seconds.
+Registered in 0,006104 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3358ms)
+		BeginReloadAssembly (1459ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1810ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (503ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (876ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (651ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135,8 MB.
+System memory in use after: 135,8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3821.
+Total: 13,186834 ms (FindLiveObjects: 0,560070 ms CreateObjectMapping: 0,201941 ms MarkObjects: 12,174978 ms  DeleteObjects: 0,246888 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 378,415891 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/bus/bus_1
+  artifactKey: Guid(12dc73a37e9f44f4ea8725837e3d5c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/bus/bus_1 using Guid(12dc73a37e9f44f4ea8725837e3d5c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc0861967562f8a328fe9cce1ead06b') in 0,008461 seconds 
+  Import took 0,018709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,141360 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/bus/bus_1/bus_1_yellow.prefab
+  artifactKey: Guid(aa71d9df118fc154a858babad5b1a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/bus/bus_1/bus_1_yellow.prefab using Guid(aa71d9df118fc154a858babad5b1a66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6438ddbf297c7f14958df769c0c26ba') in 0,268928 seconds 
+  Import took 0,278141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,472008 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/truck/truck_1
+  artifactKey: Guid(82c42717f709aeb4f9dd788668961ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/truck/truck_1 using Guid(82c42717f709aeb4f9dd788668961ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499d2ff93a307f86a01ac21e86395c98') in 0,001051 seconds 
+  Import took 0,009625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,130211 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_black.prefab
+  artifactKey: Guid(8784cee67cb5a1245bc4e15c7df8d321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_black.prefab using Guid(8784cee67cb5a1245bc4e15c7df8d321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aa3bee7911e0e270cd0d6be930aebe') in 0,015852 seconds 
+  Import took 0,025358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3,606562 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/van/van_1
+  artifactKey: Guid(5084d813a8bcfbc4dbd25b420dfbc275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/van/van_1 using Guid(5084d813a8bcfbc4dbd25b420dfbc275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd23361c433a10628017fec7acfba1a') in 0,001393 seconds 
+  Import took 0,012807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,126316 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/van/van_1/van_1_black.prefab
+  artifactKey: Guid(b2788c42126f14248ab2fdd78705c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/van/van_1/van_1_black.prefab using Guid(b2788c42126f14248ab2fdd78705c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489085a1268624e545f206324a44756f') in 0,015310 seconds 
+  Import took 0,024731 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,007741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,246 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3246ms)
+		BeginReloadAssembly (1127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2011ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (554ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (971ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (684ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,1 MB.
+System memory in use after: 136,1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 14,453120 ms (FindLiveObjects: 0,925480 ms CreateObjectMapping: 0,577971 ms MarkObjects: 12,617241 ms  DeleteObjects: 0,329812 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 199,518973 seconds.
+  path: Assets/Scripts/LightRandomizer.cs
+  artifactKey: Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizer.cs using Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eecae2f0963774daf665e8aa8f24293') in 0,008669 seconds 
+  Import took 0,016369 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2818ms)
+		BeginReloadAssembly (716ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1980ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (530ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (975ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (689ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,1 MB.
+System memory in use after: 136,2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3866.
+Total: 10,689413 ms (FindLiveObjects: 0,510316 ms CreateObjectMapping: 0,265249 ms MarkObjects: 9,581079 ms  DeleteObjects: 0,329946 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21,092176 seconds.
+  path: Assets/Scripts/LightRandomizerTag.cs
+  artifactKey: Guid(44bc01b8e9af996b2b084338bca8f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizerTag.cs using Guid(44bc01b8e9af996b2b084338bca8f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eb83707b6f0c1dd7b22d3787f76a54') in 0,010595 seconds 
+  Import took 0,024629 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2889ms)
+		BeginReloadAssembly (874ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1868ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (846ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (622ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,2 MB.
+System memory in use after: 136,2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 16,005187 ms (FindLiveObjects: 0,903061 ms CreateObjectMapping: 0,292022 ms MarkObjects: 14,367977 ms  DeleteObjects: 0,438777 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 964,189057 seconds.
+  path: Assets/Scripts/LightRandomizer.cs
+  artifactKey: Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizer.cs using Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e14a34d923c6a48f84246162b04aaf') in 0,007245 seconds 
+  Import took 0,016379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000608 seconds.
+  path: Assets/Scripts/LightRandomizer.cs
+  artifactKey: Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizer.cs using Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e14a34d923c6a48f84246162b04aaf') in 0,001130 seconds 
+  Import took 0,010103 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,007486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7,095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7096ms)
+		BeginReloadAssembly (4784ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2206ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (643ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1033ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (723ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,2 MB.
+System memory in use after: 136,2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3875.
+Total: 13,902330 ms (FindLiveObjects: 0,677371 ms CreateObjectMapping: 0,343781 ms MarkObjects: 12,383655 ms  DeleteObjects: 0,493000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86,964920 seconds.
+  path: Assets/Scripts/LightRandomizerTag.cs
+  artifactKey: Guid(44bc01b8e9af996b2b084338bca8f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizerTag.cs using Guid(44bc01b8e9af996b2b084338bca8f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daadbd4579aeda177da4c2bc1a693c5') in 0,008139 seconds 
+  Import took 0,019815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105,017520 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
+  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09507d45b9a021c47b211589cffffa1') in 0,320484 seconds 
+  Import took 0,331386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,575771 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
+  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9588dbd0ce82f4fb16b130413b8637') in 0,016270 seconds 
+  Import took 0,025116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,706029 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
+  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a99ed32194c9dab2fd1ffd7a783774a') in 0,019232 seconds 
+  Import took 0,031089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,010899 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
+  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a99ed32194c9dab2fd1ffd7a783774a') in 0,019964 seconds 
+  Import took 0,032963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,498857 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
+  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08c11fb77a75d0f61ecc7fcaadf7504') in 0,019581 seconds 
+  Import took 0,029358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,010420 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
+  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08c11fb77a75d0f61ecc7fcaadf7504') in 0,015521 seconds 
+  Import took 0,025785 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5,525 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5525ms)
+		BeginReloadAssembly (3428ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1992ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (594ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (866ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (643ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,3 MB.
+System memory in use after: 136,4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3915.
+Total: 14,387321 ms (FindLiveObjects: 0,694972 ms CreateObjectMapping: 0,292864 ms MarkObjects: 13,131192 ms  DeleteObjects: 0,264407 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49,698033 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
+  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6accc9d0aac6c410d5c06db763ea8261') in 0,274618 seconds 
+  Import took 0,283052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,616621 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
+  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6accc9d0aac6c410d5c06db763ea8261') in 0,016294 seconds 
+  Import took 0,026753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6,942695 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
+  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1fd5574120de9dfed293249cd61463') in 0,025110 seconds 
+  Import took 0,039795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1,189553 seconds.
+  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
+  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefc6f3937610d12d540989dc1d79a00') in 0,014706 seconds 
+  Import took 0,023260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 285,887404 seconds.
+  path: Assets/Scripts/LightRandomizerTag.cs
+  artifactKey: Guid(44bc01b8e9af996b2b084338bca8f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizerTag.cs using Guid(44bc01b8e9af996b2b084338bca8f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b273bf6d2be9caad2d2148bea9e8c59d') in 0,001580 seconds 
+  Import took 0,012773 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,011478 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,148 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3149ms)
+		BeginReloadAssembly (1028ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2022ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (543ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (965ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (710ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,5 MB.
+System memory in use after: 136,5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3955.
+Total: 12,249944 ms (FindLiveObjects: 0,857145 ms CreateObjectMapping: 0,281968 ms MarkObjects: 10,727349 ms  DeleteObjects: 0,380495 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41,104245 seconds.
+  path: Assets/Scripts/LightRandomizer.cs
+  artifactKey: Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizer.cs using Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e12030402d1a8171871afb3f822a29') in 0,008054 seconds 
+  Import took 0,018736 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,494 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3495ms)
+		BeginReloadAssembly (675ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (2689ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (846ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (1145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (233ms)
+				ProcessInitializeOnLoadAttributes (752ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,5 MB.
+System memory in use after: 136,5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3959.
+Total: 13,049970 ms (FindLiveObjects: 0,913738 ms CreateObjectMapping: 0,426033 ms MarkObjects: 11,281691 ms  DeleteObjects: 0,425829 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82,860312 seconds.
+  path: Assets/Scripts/LightRandomizerTag.cs
+  artifactKey: Guid(44bc01b8e9af996b2b084338bca8f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizerTag.cs using Guid(44bc01b8e9af996b2b084338bca8f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d008ee931d123f1fff505d89765b27') in 0,008418 seconds 
+  Import took 0,021753 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006539 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -922,126 +1265,177 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1,20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3,470 seconds
+- Completed reload, in  2,987 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3471ms)
-		BeginReloadAssembly (1393ms)
+	ReloadAssembly (2988ms)
+		BeginReloadAssembly (891ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (93ms)
-		EndReloadAssembly (1988ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2005ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (568ms)
+			SetupTypeCache (540ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (952ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (696ms)
-				ProcessInitializeOnLoadMethodAttributes (101ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1,85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135,7 MB.
-System memory in use after: 135,8 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3796.
-Total: 14,026765 ms (FindLiveObjects: 1,025508 ms CreateObjectMapping: 0,337781 ms MarkObjects: 12,394538 ms  DeleteObjects: 0,266699 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2030,710599 seconds.
-  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab
-  artifactKey: Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_5/car_5_blue.prefab using Guid(40b5728c9a8fc364cbfbaadcdeb1af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b277da3cb3ee8b932960dce601e37f8d') in 0,283338 seconds 
-  Import took 0,294038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10,915763 seconds.
-  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
-  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f9f4ddd9078510c5801110e80b53be') in 0,016489 seconds 
-  Import took 0,027115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,004702 seconds.
-  path: Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab
-  artifactKey: Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_free_Ukraine_cars/prefabs_With_Colliders/cars_colliiders/car/car_6/car_6_black.prefab using Guid(788f99c0acce4384a91a6c213fb34068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f9f4ddd9078510c5801110e80b53be') in 0,013753 seconds 
-  Import took 0,022084 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,007789 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3,142 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3142ms)
-		BeginReloadAssembly (651ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (2383ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (684ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (1126ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (979ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (161ms)
-				ProcessInitializeOnLoadAttributes (836ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (720ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,5 MB.
+System memory in use after: 136,5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3963.
+Total: 13,565294 ms (FindLiveObjects: 0,587269 ms CreateObjectMapping: 0,256660 ms MarkObjects: 12,233877 ms  DeleteObjects: 0,483760 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36,818347 seconds.
+  path: Assets/Scripts/LightRandomizer.cs
+  artifactKey: Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizer.cs using Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1898ebb8d1f131fd07a40bbfc53df46d') in 0,007636 seconds 
+  Import took 0,018037 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8,375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8376ms)
+		BeginReloadAssembly (5233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (297ms)
+		EndReloadAssembly (2838ms)
+			LoadAssemblies (369ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1080ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (1002ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (746ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,5 MB.
+System memory in use after: 136,5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3967.
+Total: 10,678749 ms (FindLiveObjects: 0,522710 ms CreateObjectMapping: 0,218906 ms MarkObjects: 9,612963 ms  DeleteObjects: 0,321708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83,493439 seconds.
+  path: Assets/Scripts/LightRandomizer.cs
+  artifactKey: Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightRandomizer.cs using Guid(613a5f4a7514ab674979678af73532f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978d7b173ce74fa4af3ae73babc4d988') in 0,007603 seconds 
+  Import took 0,017077 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,126 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3127ms)
+		BeginReloadAssembly (1025ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2008ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (576ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (980ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (698ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (25ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1,01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1,58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135,9 MB.
-System memory in use after: 136,0 MB.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,5 MB.
+System memory in use after: 136,5 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3836.
-Total: 9,865349 ms (FindLiveObjects: 0,898556 ms CreateObjectMapping: 0,469411 ms MarkObjects: 8,258881 ms  DeleteObjects: 0,235555 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3971.
+Total: 12,285661 ms (FindLiveObjects: 0,810321 ms CreateObjectMapping: 0,272056 ms MarkObjects: 10,821624 ms  DeleteObjects: 0,378780 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1055,52 +1449,170 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,005917 seconds.
+Registered in 0,009642 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1,42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1,67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3,920 seconds
+- Completed reload, in  7,492 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3921ms)
-		BeginReloadAssembly (1754ms)
+	ReloadAssembly (7493ms)
+		BeginReloadAssembly (5012ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (2054ms)
-			LoadAssemblies (128ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2366ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (610ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (138ms)
-			SetupLoadedEditorAssemblies (837ms)
+			SetupTypeCache (611ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (1150ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (33ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (616ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (811ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (25ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1,06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1,00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136,0 MB.
-System memory in use after: 136,1 MB.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,5 MB.
+System memory in use after: 136,5 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3840.
-Total: 12,183408 ms (FindLiveObjects: 0,698394 ms CreateObjectMapping: 0,315003 ms MarkObjects: 10,869162 ms  DeleteObjects: 0,297887 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3975.
+Total: 10,094867 ms (FindLiveObjects: 0,722093 ms CreateObjectMapping: 0,353902 ms MarkObjects: 8,464848 ms  DeleteObjects: 0,550894 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,009079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3589ms)
+		BeginReloadAssembly (1581ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (1910ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (547ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (876ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (627ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,5 MB.
+System memory in use after: 136,6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3979.
+Total: 14,664655 ms (FindLiveObjects: 0,673972 ms CreateObjectMapping: 0,383138 ms MarkObjects: 13,195272 ms  DeleteObjects: 0,408819 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1,05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6,448 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6449ms)
+		BeginReloadAssembly (4569ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1790ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (834ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (603ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1,88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136,5 MB.
+System memory in use after: 136,6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3983.
+Total: 9,222075 ms (FindLiveObjects: 0,467785 ms CreateObjectMapping: 0,226656 ms MarkObjects: 8,072526 ms  DeleteObjects: 0,452016 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

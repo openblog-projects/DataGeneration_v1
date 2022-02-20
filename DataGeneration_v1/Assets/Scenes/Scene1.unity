@@ -158,6 +158,8 @@ MonoBehaviour:
   - id: 2
   - id: 3
   - id: 4
+  - id: 5
+  - id: 6
   configuration: {fileID: 0}
   constants:
     randomSeed: 539662031
@@ -192,7 +194,7 @@ MonoBehaviour:
           - 0.1
           uniform: 1
           m_Sampler:
-            id: 5
+            id: 7
           m_Categories:
           - {fileID: 6030332796725836435, guid: 7dd7f1e1f85b04c908d48829d22f4f8b, type: 3}
           - {fileID: 6016821248533432811, guid: 95c2ed58ec23643a698c890a152f30c8, type: 3}
@@ -355,7 +357,7 @@ MonoBehaviour:
           - 0.007142857
           uniform: 1
           m_Sampler:
-            id: 6
+            id: 8
           m_Categories:
           - {fileID: 2800000, guid: a4315e23f1cb54c7a9998e07e5872403, type: 3}
           - {fileID: 2800000, guid: 3be265349956646cf91bcc3a41573e76, type: 3}
@@ -506,7 +508,7 @@ MonoBehaviour:
         hueOffset:
           collapsed: 0
           value:
-            id: 7
+            id: 9
     00000003:
       type: {class: ForegroundObjectPlacementRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
       data:
@@ -523,7 +525,7 @@ MonoBehaviour:
           - 0.5
           uniform: 1
           m_Sampler:
-            id: 8
+            id: 10
           m_Categories:
           - {fileID: 8934234302468195902, guid: 40b5728c9a8fc364cbfbaadcdeb1af64, type: 3}
           - {fileID: 5285174987729393547, guid: 788f99c0acce4384a91a6c213fb34068, type: 3}
@@ -536,35 +538,43 @@ MonoBehaviour:
         rotation:
           collapsed: 0
           x:
-            id: 9
-          y:
-            id: 10
-          z:
             id: 11
+          y:
+            id: 12
+          z:
+            id: 13
     00000005:
-      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      type: {class: ColorRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers.SampleRandomizers, asm: Unity.Perception.Runtime}
       data:
-        range:
-          minimum: 0
-          maximum: 1
-        <minAllowed>k__BackingField: 0
-        <maxAllowed>k__BackingField: 0
-        <shouldCheckValidRange>k__BackingField: 0
+        m_Enabled: 0
+        collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
+        colorParameter:
+          collapsed: 0
+          hue:
+            id: 14
+          saturation:
+            id: 15
+          value:
+            id: 16
+          alpha:
+            id: 17
     00000006:
-      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      type: {class: LightRandomizer, ns: , asm: Assembly-CSharp}
       data:
-        range:
-          minimum: 0
-          maximum: 1
-        <minAllowed>k__BackingField: 0
-        <maxAllowed>k__BackingField: 0
-        <shouldCheckValidRange>k__BackingField: 0
+        m_Enabled: 1
+        collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
+        lightIntensityParameter:
+          collapsed: 0
+          value:
+            id: 18
     00000007:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
-          minimum: -180
-          maximum: 180
+          minimum: 0
+          maximum: 1
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
@@ -581,8 +591,8 @@ MonoBehaviour:
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
       data:
         range:
-          minimum: 0
-          maximum: 360
+          minimum: -180
+          maximum: 180
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
@@ -591,7 +601,7 @@ MonoBehaviour:
       data:
         range:
           minimum: 0
-          maximum: 360
+          maximum: 1
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
@@ -601,6 +611,193 @@ MonoBehaviour:
         range:
           minimum: 0
           maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    0000000C:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    0000000D:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    0000000E:
+      type: {class: AnimationCurveSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.5
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+        numOfSamplesForIntegration: 500
+    0000000F:
+      type: {class: AnimationCurveSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.5
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+        numOfSamplesForIntegration: 500
+    00000010:
+      type: {class: AnimationCurveSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.5
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+        numOfSamplesForIntegration: 500
+    00000011:
+      type: {class: AnimationCurveSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        distributionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.5
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+        numOfSamplesForIntegration: 500
+    00000012:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 20
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
@@ -751,7 +948,7 @@ MonoBehaviour:
     00000003:
       type: {class: SemanticSegmentationLabeler, ns: UnityEngine.Perception.GroundTruth, asm: Unity.Perception.Runtime}
       data:
-        enabled: 1
+        enabled: 0
         annotationId: 12f94d8d-5425-4deb-9b21-5e53ad957d66
         labelConfig: {fileID: 11400000, guid: ac7172140bca5dce0bb922977b61e49b, type: 2}
         m_TargetTextureOverride: {fileID: 0}
@@ -797,6 +994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1352798296}
   - component: {fileID: 1352798295}
+  - component: {fileID: 1352798297}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -880,3 +1078,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1352798297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352798294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44bc01b8e9af996b2b084338bca8f8e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
